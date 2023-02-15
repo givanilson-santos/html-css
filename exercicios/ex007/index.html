@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMidias dinamicas</title>
+</head>
+<body>
+    <h1>tente abrir esse site em varios dispostivos difrente ou simplesmente aumente e diminua no seu navegador</h1>
+    <picture>
+        <!-- é bem facil é so colocar a ordem de item do menor para o maior  -->
+        <source media="(max-width:450px )" srcset="img/teste1.jpg" type="image/jpg">
+        <source media="(max-width:500px )" srcset="img/teste2.jpg" type="image/jpg">
+        <source media="(max-width:750px )" srcset="img/teste3.jpg" type="image/jpg">
+        <source media="(max-width:850px )" srcset="img/foto-g.png" type="image/png">
+        <!-- tem que colocar os source acima um do outro(o primeirro foi esse de baixo) -->
+        <source media="(max-width:1050px )" srcset="img/teste3.jpg" type="image/jpg">
+        <img src="img/teste4-o-certo.jpg" alt="">
+    </picture>
+    <h1>REPRODUZIR AUDIO</h1>
+    <audio src="03. TA CHORANDO POR QUE.mp3" controls autoplay></audio>
+    <!-- mpn wav ogg -->
+    <audio preload="metadata" autoplay controls loop >
+        <!-- loop nao para de tocar "metadata faz o site so baixar o audio quando vc aperta para abrir o audio pq se deixar sem seu site so vai carregar compelto quando baixar o audio todo, imagina uma audio grande  de 1 ou 2 h " -->
+        <source src="03. TA CHORANDO POR QUE.mp3" type="audio/mpeg">
+        <source src="03. TA CHORANDO POR QUE.mp3" type="audio/ogg">
+        <source src="03. TA CHORANDO POR QUE.mp3" type="audio/wav">
+        <p>inflelismente seu navegador nao consegue rproduzir audios </p>
+    </audio>
+</body>
+</html>

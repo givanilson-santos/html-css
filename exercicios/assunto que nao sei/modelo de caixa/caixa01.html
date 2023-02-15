@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{font-family:Arial, Helvetica, sans-serif ;
+        background-color: dimgray;
+    margin: 0;}
+        header{
+        background-color:white ;
+    padding:10px ;
+
+margin: 10px;}
+nav{
+    background-color:rgb(129, 128, 128) ;
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.378);
+    
+
+}
+nav > a{text-decoration: none;
+color: white;
+font-weight: bold;
+margin-right:30px ;} 
+nav > a:hover{ text-decoration: underline;}
+
+main{background-color: white;
+padding: 10px;
+margin: 10px;
+border-radius: 10px 0px;
+box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.378);}
+
+article{background-color: rgb(172, 171, 171);
+padding: 5px;}
+
+article > aside{
+     background-color: lightgray;
+
+}
+footer{background-color: black;
+color: white;
+text-align: center;
+padding: 4px;
+margin: 0px;}
+footer > p{margin:0px ;}
+#bola{width: 100px;
+height: 100px;
+background-color: white;
+border-radius: 50%;
+margin: 10px;}
+
+    </style>
+</head>
+<body>
+    <header>
+            <h1>meu site</h1>
+            <nav>
+                <a href="#">links</a>
+                <a href="#">links</a>
+                <a href="#">links</a>
+                <a href="#">links</a>
+                <a href="#">links</a>
+            </nav>
+    </header>   
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecinologia </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o brasil</h2>
+                <aside>
+                  <p>Artigo escrito por jóse da silva</p> 
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+            <p>Desenvolvidos por givanilson</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /* seletores personalizados
+        # = id
+        . = class
+        : = peseudo-class
+        :: = peseudo-element
+        > = clidren 
+        */
+        body{font-family: Arial, Helvetica, sans-serif;}
+        ul{
+            list-style-type: none;
+        }
+        a{
+             color: rgb(169, 31, 31);
+             text-decoration: none;
+             font-weight: bold;
+
+            }
+        a:visited{color: darkred;}
+        /* isso e para escoler a cor do link para quem nunca acssou o site que o link vai incaminar 
+         */
+         .especial{background-color: rgb(189, 109, 109);}
+        a:hover{
+            color: black;
+            text-decoration: underline;}
+            a:active{color: yellow;}
+            /* isso e para quando clicar no link ele fica dessa cor yello  */
+           .especial::before{content: '►';
+            text-decoration: none;
+                font-weight: normal;
+                color: rgb(95, 86, 86);}
+            .especial::after{
+                content:'◄	' ;
+                text-decoration: none;
+                font-weight: normal;
+                color: rgb(95, 86, 86);
+            }
+            /* isso é para bota algo depois tipo uma explicação, no ex acima botamos link para a s pessoas entender que isso e um link  */
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a target="_blank" href="https://gustavoguanabara.github.io">Repositorio Github</a></li>
+        <li><a href="https://youtube.com/" class="especial">Canal do You Tube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do curso em video</a></li>
+    </ul>
+    
+</body>
+</html>

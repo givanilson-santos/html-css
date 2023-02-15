@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    background-image: linear-gradient(to right, #7C5B29,#C4BA99 );
+}
+p{text-align: justify;}
+main{background-color: white; 
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:10px 10px 25px  #260f0193;
+    /* muito bom esse margin auto 
+    box shadow tbm sobra */
+}
+h1{
+    color:#260F01;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 2px #4e1f03;
+}
+h2{color:#838481 ;}
