@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(108, 78, 78);
+            color: white;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{background-color: gray;
+            color: rgb(255, 255, 255);
+
+            
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+            color: rgb(255, 255, 255);
+        }
+        tfoot{background-color: gray;
+            color: rgb(255, 252, 252);
+
+        }
+        .numero{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border:  1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!-- anatomia para tabelas grndes 
+    TABLE
+    CAPION É TIPO LEGENDA DA TABELA 
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH 
+         -->
+
+        <table>
+            <caption>População dass Unidades Federativas </caption>
+         
+            <thead>
+                <tr>
+                    <!-- isso é para diz que em que linha/coluna esta os dados desee th  -->
+                    <th scope="col">Estado</th>
+                    <th scope="col" style="width: 100px;">População</th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais </td>
+                    <td class="numero">21 168 780</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Rio Gande do Sul</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais </td>
+                    <td class="numero">21 168 780</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Rio Gande do Sul</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais </td>
+                    <td class="numero">21 168 780</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Rio Gande do Sul</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais </td>
+                    <td class="numero">21 168 780</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Rio Gande do Sul</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais </td>
+                    <td class="numero">21 168 780</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Rio Gande do Sul</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais </td>
+                    <td class="numero">21 168 780</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Rio Gande do Sul</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">17 397 713</td>
+                
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <th scope="row"><strong>Total De Habitantes</strong> </th>
+                <td class="numero"> <strong>270121111</strong></td>
+
+            </tfoot>
+        </table>
+    
+</body>
+</html>
